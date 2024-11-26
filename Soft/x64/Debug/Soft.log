@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\PC\source\repos\Soft\main.cpp(119,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\PC\source\repos\Soft\main.cpp(158,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\PC\source\repos\Soft\main.cpp(172,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\PC\source\repos\Soft\main.cpp(236,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\PC\source\repos\Soft\main.cpp(243,13): warning C4312: приведение типов: преобразование из "int" в "HMENU" большего размера
+C:\Users\PC\source\repos\Soft\main.cpp(389,35): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+  Soft.vcxproj -> C:\Users\PC\source\repos\Soft\x64\Debug\Soft.exe

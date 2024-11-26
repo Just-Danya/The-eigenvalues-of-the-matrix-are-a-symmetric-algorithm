@@ -1,0 +1,25 @@
+﻿  main.cpp
+C:\Users\PC\source\repos\Soft\main.cpp(16,9): error C2664: "BOOL GetMessageW(LPMSG,HWND,UINT,UINT)": невозможно преобразовать аргумент 1 из "WNDCLASS *" в "LPMSG"
+      C:\Users\PC\source\repos\Soft\main.cpp(16,20):
+      Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(3409,1):
+       см. объявление "GetMessageW"
+      C:\Users\PC\source\repos\Soft\main.cpp(16,9):
+      при попытке сопоставить список аргументов "(WNDCLASS *, int, int, int)"
+  
+C:\Users\PC\source\repos\Soft\main.cpp(17,3): error C2664: "BOOL TranslateMessage(const MSG *)": невозможно преобразовать аргумент 1 из "WNDCLASS *" в "const MSG *"
+      C:\Users\PC\source\repos\Soft\main.cpp(17,20):
+      Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(3448,1):
+       см. объявление "TranslateMessage"
+      C:\Users\PC\source\repos\Soft\main.cpp(17,3):
+      при попытке сопоставить список аргументов "(WNDCLASS *)"
+  
+C:\Users\PC\source\repos\Soft\main.cpp(18,3): error C2664: "LRESULT DispatchMessageW(const MSG *)": невозможно преобразовать аргумент 1 из "WNDCLASS *" в "const MSG *"
+      C:\Users\PC\source\repos\Soft\main.cpp(18,20):
+      Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(3459,1):
+       см. объявление "DispatchMessageW"
+      C:\Users\PC\source\repos\Soft\main.cpp(18,3):
+      при попытке сопоставить список аргументов "(WNDCLASS *)"
+  
